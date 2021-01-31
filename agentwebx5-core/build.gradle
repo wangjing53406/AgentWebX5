@@ -17,8 +17,13 @@ android {
     }
     buildTypes {
         release {
+            buildConfigField "String", "VERSION_NAME", '"1.0.0"'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            buildConfigField "String", "VERSION_NAME", '"1.0.0"'
+            minifyEnabled false
         }
     }
     lintOptions {
