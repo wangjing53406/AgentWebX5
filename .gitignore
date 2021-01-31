@@ -1,8 +1,8 @@
 *.iml
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+.idea
+.github
 .DS_Store
 /build
 /captures
@@ -10,3 +10,4 @@
 /node_modules
 package-lock.json
 package.json
+upload.sh

@@ -1,1 +1,1 @@
-include ':sample', ':library', ':twlibrary'
+include ':sample', ':agentwebx5-core', ':agentwebx5-filechooser'
